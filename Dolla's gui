@@ -1,0 +1,326 @@
+local player = game.Players.LocalPlayer
+
+if player.Name == "tammert38" then
+    print("Whitelisted")
+    elseif player.Name == "tammert83" then
+    print("Whitelisted")
+    elseif player.Name == "Soqy99" then
+    print("Whitelisted")
+     elseif player.Name == "nixusplayer1" then
+    print("Whitelisted")
+     elseif player.Name == "sabenmaymun55" then
+    print("Whitelisted")
+     elseif player.Name == "stopagrigoryan123" then
+    print("Whitelisted")
+     elseif player.Name == "asleep_tx4" then
+    print("Whitelisted")
+     elseif player.Name == "asleepTX4" then
+    print("Whitelisted")
+     elseif player.Name == "name of the player" then
+    print("Whitelisted")
+     elseif player.Name == "name of the player" then
+    print("Whitelisted")
+     elseif player.Name == "name of the player" then
+    print("Whitelisted")
+     elseif player.Name == "name of the player" then
+    print("Whitelisted")
+
+    else
+
+    player:Kick("Not Whitelisted contact owner Dolla#5418")
+end
+
+
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/slf0Dev/Ocerium_Project/main/Library.lua"))()
+
+Window = Library.Main("DOLLA'S GUI","LeftAlt") -- change "LeftAlt" to key that you want will hide gui
+
+--//tab
+local Tab = Window.NewTab("Main")
+
+
+local ReactSection = Tab.NewSection("React")
+
+local Button = ReactSection.NewButton("React any position", function()
+
+    
+            -- DONT TOUCH ANYTHING BELOW THIS
+    
+            _G.Path = nil
+    
+            local player = game.Players.LocalPlayer
+            local mouse = player:GetMouse()
+    
+            local lleg = game.Players.LocalPlayer.Character["Left Leg"]
+            local leg = game.Players.LocalPlayer.Character["Right Leg"]
+            local left = game.Players.LocalPlayer.Character["Left Arm"]
+            local arm = game.Players.LocalPlayer.Character["Right Arm"]
+    
+    
+            local player = game.Players.LocalPlayer
+            local mouse = player:GetMouse()
+            mouse.KeyDown:connect(function()
+                                        if _G.Path == nil then
+                if _G.Enabled == true then
+            for i, balls in pairs(game.Workspace:GetDescendants()) do
+                                    if balls.Name == _G.BallName then
+                                            _G.Path = balls.Parent
+                                    if (balls.Position - game.Players.LocalPlayer.Character.HumanoidRootPart.Position).magnitude <= _G.Magnitude then
+            firetouchinterest(arm, balls, 0)
+            firetouchinterest(left, balls, 0)
+            firetouchinterest(leg, balls, 0)
+            firetouchinterest(lleg, balls, 0)
+            wait()
+            firetouchinterest(arm, balls, 1)
+            firetouchinterest(left, balls, 1)
+            firetouchinterest(leg, balls, 1)
+            firetouchinterest(lleg, balls, 1)
+            end
+            end
+            end
+            end
+            elseif _G.Path ~= nil then
+                    if _G.Enabled == true then
+                for i, balls2 in pairs(_G.Path:GetChildren()) do
+                                        if balls2.Name == _G.BallName then
+                                                            if (balls2.Position - game.Players.LocalPlayer.Character.HumanoidRootPart.Position).magnitude <= _G.Magnitude then
+            firetouchinterest(arm, balls2, 0)
+            firetouchinterest(left, balls2, 0)
+            firetouchinterest(leg, balls2, 0)
+            firetouchinterest(lleg, balls2, 0)
+            wait()
+            firetouchinterest(arm, balls2, 1)
+            firetouchinterest(left, balls2, 1)
+            firetouchinterest(leg, balls2, 1)
+            firetouchinterest(lleg, balls2, 1)
+                            end
+                        end
+                    end
+                    end
+            end
+            end)
+        
+            local player = game.Players.LocalPlayer
+            local mouse = player:GetMouse()
+                        mouse.Button1Down:Connect(function()
+                                        if _G.Path == nil then
+                if _G.Enabled == true then
+            for i, balls in pairs(game.Workspace:GetDescendants()) do
+                                    if balls.Name == _G.BallName then
+                                            _G.Path = balls.Parent
+                                    if (balls.Position - game.Players.LocalPlayer.Character.HumanoidRootPart.Position).magnitude <= _G.Magnitude then
+            firetouchinterest(arm, balls, 0)
+            firetouchinterest(left, balls, 0)
+            firetouchinterest(leg, balls, 0)
+            firetouchinterest(lleg, balls, 0)
+            wait()
+            firetouchinterest(arm, balls, 1)
+            firetouchinterest(left, balls, 1)
+            firetouchinterest(leg, balls, 1)
+            firetouchinterest(lleg, balls, 1)
+            end
+            end
+            end
+            end
+            elseif _G.Path ~= nil then
+                    if _G.Enabled == true then
+                for i, balls2 in pairs(_G.Path:GetChildren()) do
+                                        if balls2.Name == _G.BallName then
+                                                            if (balls2.Position - game.Players.LocalPlayer.Character.HumanoidRootPart.Position).magnitude <= _G.Magnitude then
+            firetouchinterest(arm, balls2, 0)
+            firetouchinterest(left, balls2, 0)
+            firetouchinterest(leg, balls2, 0)
+            firetouchinterest(lleg, balls2, 0)
+            wait()
+            firetouchinterest(arm, balls2, 1)
+            firetouchinterest(left, balls2, 1)
+            firetouchinterest(leg, balls2, 1)
+            firetouchinterest(lleg, balls2, 1)
+                            end
+                        end
+                    end
+                    end
+            end
+            end)
+        
+        
+            setsimulationradius(math.huge, math.huge)
+            
+        end)
+
+
+local Button = ReactSection.NewButton("React Right foot", function()
+loadstring(game:HttpGet("https://pastebin.com/raw/6g9yeJC0"))()
+     end)
+
+local Button = ReactSection.NewButton("React Left foot", function()
+loadstring(game:HttpGet("https://pastebin.com/raw/zUQhwT9w"))()
+     end)
+
+
+local ReachSection = Tab.NewSection("Reach Right foot")
+
+local ReachSection2 = Tab.NewSection("Reach left foot")
+
+local Button = ReachSection.NewButton("Turn Off",function()
+getgenv().Leg = "Right"
+getgenv().Reach = 0
+loadstring(game:HttpGet("https://raw.githubusercontent.com/tammert83/rech/main/reach"))()
+end,0)
+
+local Button = ReachSection.NewButton("Reach1stud",function()
+getgenv().Leg = "Right"
+getgenv().Reach = 1
+loadstring(game:HttpGet("https://raw.githubusercontent.com/tammert83/rech/main/reach"))()
+end,0)
+
+local Button = ReachSection.NewButton("Reach2stud",function()
+getgenv().Leg = "Right"
+getgenv().Reach = 2
+loadstring(game:HttpGet("https://raw.githubusercontent.com/tammert83/rech/main/reach"))()
+end,0)
+
+local Button = ReachSection.NewButton("Reach3stud",function()
+getgenv().Leg = "Right"
+getgenv().Reach = 3
+loadstring(game:HttpGet("https://raw.githubusercontent.com/tammert83/rech/main/reach"))()
+end,0)
+
+local Button = ReachSection.NewButton("Reach4stud",function()
+getgenv().Leg = "Right"
+getgenv().Reach = 4
+loadstring(game:HttpGet("https://raw.githubusercontent.com/tammert83/rech/main/reach"))()
+end,0)
+
+local Button = ReachSection.NewButton("Reach5stud",function()
+getgenv().Leg = "Right"
+getgenv().Reach = 5
+loadstring(game:HttpGet("https://raw.githubusercontent.com/tammert83/rech/main/reach"))()
+end,0)
+
+local Button = ReachSection.NewButton("Reach6stud",function()
+getgenv().Leg = "Right"
+getgenv().Reach = 6
+loadstring(game:HttpGet("https://raw.githubusercontent.com/tammert83/rech/main/reach"))()
+end,0)
+
+local Button = ReachSection.NewButton("Reach7stud",function()
+getgenv().Leg = "Right"
+getgenv().Reach = 7
+loadstring(game:HttpGet("https://raw.githubusercontent.com/tammert83/rech/main/reach"))()
+end,0)
+
+local Button = ReachSection.NewButton("Reach8stud",function()
+getgenv().Leg = "Right"
+getgenv().Reach = 8
+loadstring(game:HttpGet("https://raw.githubusercontent.com/tammert83/rech/main/reach"))()
+end,0)
+
+local Button = ReachSection.NewButton("Reach9stud",function()
+getgenv().Leg = "Right"
+getgenv().Reach = 9
+loadstring(game:HttpGet("https://raw.githubusercontent.com/tammert83/rech/main/reach"))()
+end,0)
+
+local Button = ReachSection.NewButton("Reach10stud",function()
+getgenv().Leg = "Right"
+getgenv().Reach = 10
+loadstring(game:HttpGet("https://raw.githubusercontent.com/tammert83/rech/main/reach"))()
+end,0)
+
+local Button = ReachSection2.NewButton("Turn Off",function()
+getgenv().Leg = "Left"
+getgenv().Reach = 0
+loadstring(game:HttpGet("https://raw.githubusercontent.com/tammert83/rech/main/reach"))()
+end,0)
+
+local Button = ReachSection2.NewButton("Reach1stud",function()
+getgenv().Leg = "Left"
+getgenv().Reach = 1
+loadstring(game:HttpGet("https://raw.githubusercontent.com/tammert83/rech/main/reach"))()
+end,0)
+
+local Button = ReachSection2.NewButton("Reach2stud",function()
+getgenv().Leg = "Left"
+getgenv().Reach = 2
+loadstring(game:HttpGet("https://raw.githubusercontent.com/tammert83/rech/main/reach"))()
+end,0)
+
+local Button = ReachSection2.NewButton("Reach3stud",function()
+getgenv().Leg = "Left"
+getgenv().Reach = 3
+loadstring(game:HttpGet("https://raw.githubusercontent.com/tammert83/rech/main/reach"))()
+end,0)
+
+local Button = ReachSection2.NewButton("Reach4stud",function()
+getgenv().Leg = "Left"
+getgenv().Reach = 4 
+loadstring(game:HttpGet("https://raw.githubusercontent.com/tammert83/rech/main/reach"))()
+end,0)
+
+local Button = ReachSection2.NewButton("Reach5stud",function()
+getgenv().Leg = "Left"
+getgenv().Reach = 5
+loadstring(game:HttpGet("https://raw.githubusercontent.com/tammert83/rech/main/reach"))()
+end,0)
+
+local Button = ReachSection2.NewButton("Reach6stud",function()
+getgenv().Leg = "Left"
+getgenv().Reach = 6
+loadstring(game:HttpGet("https://raw.githubusercontent.com/tammert83/rech/main/reach"))()
+end,0)
+
+local Button = ReachSection2.NewButton("Reach7stud",function()
+getgenv().Leg = "Left"
+getgenv().Reach = 7
+loadstring(game:HttpGet("https://raw.githubusercontent.com/tammert83/rech/main/reach"))()
+end,0)
+
+local Button = ReachSection2.NewButton("Reach8stud",function()
+getgenv().Leg = "Left"
+getgenv().Reach = 8
+loadstring(game:HttpGet("https://raw.githubusercontent.com/tammert83/rech/main/reach"))()
+end,0)
+
+local Button = ReachSection2.NewButton("Reach9stud",function()
+getgenv().Leg = "Left"
+getgenv().Reach = 9
+loadstring(game:HttpGet("https://raw.githubusercontent.com/tammert83/rech/main/reach"))()
+end,0)
+
+local Button = ReachSection2.NewButton("Reach10stud",function()
+getgenv().Leg = "Left"
+getgenv().Reach = 10
+loadstring(game:HttpGet("https://raw.githubusercontent.com/tammert83/rech/main/reach"))()
+end,0)
+
+--//tab
+local MiscTab = Window.NewTab("Misc")
+
+--//section
+local MiscSection = MiscTab.NewSection("Misc")
+
+--// Button
+local Button = MiscSection.NewButton("RTX",function()
+loadstring(game:HttpGet('https://pastebin.com/raw/HYcR0Jaq'))()
+end)
+
+local Button = MiscSection.NewButton("Antikick",function()
+loadstring(game:HttpGet('https://pastebin.com/raw/SCCZJPNr'))()
+end)
+
+local AdminSection = MiscTab.NewSection("Infinite Yield")
+local Button = AdminSection.NewButton("Infinite Yield", function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+end)
+
+local Button = MiscSection.NewButton("Fps Booster",function()
+loadstring(game:HttpGet('https://pastebin.com/raw/rxi2qXvy'))()
+end)
+
+local Button = MiscSection.NewButton("Antiballfling",function()
+Callback = function()
+    print("antiballfling working")
+    loadstring(game:HttpGet('https://paste.ee/r/f4JIl'))()
+end
+end)
